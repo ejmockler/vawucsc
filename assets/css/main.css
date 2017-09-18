@@ -1575,10 +1575,11 @@ div.logo {
 	content: url(../../images/vawlogo.png);
 	float:left;
 	width: 50%;
-	margin-top: 2em;
-	padding-top: 2.7em;
+	margin-top: 1em;
+	padding-top: 2em;
 	padding-left: 2em;
 	padding-right: 0em;
+	padding-bottom: 1em;
 	position: absolute;
 
 }
@@ -1586,21 +1587,38 @@ div.logo {
 @media screen and (max-width: 480px) {
   div.logo {
     padding-top: 0em;
-	width: 75%;
+	padding-left: .15em;
+	width: 90%;
   }
 }
 
-@media screen and ( min-width : 736px ) and (max-width : 872px ){
+@media screen and (min-width : 981px ) and ( max-width : 1680px ){
   div.logo {
-    padding-top: 1.8em;
-	width: 75%;
+    margin-top: 2.5em;
+	width: 45%
+	position: sticky;
   }
 }
 
-@media screen and ( min-width : 481px ) and (max-width : 735px ){
+@media screen and (min-width : 736px ) and ( max-width : 980px ){
   div.logo {
-    padding-top: 1.3em;
-	width: 75%;
+    margin-top: 3.5em;
+	width: 45%
+	position: sticky;
+  }
+}
+
+@media screen and ( min-width : 601px ) and (max-width : 735px ){
+  div.logo {
+    padding-top: 1.75em;
+	width: 65%;
+  }
+}
+
+@media screen and ( min-width : 481px ) and (max-width : 600px ){
+  div.logo {
+    padding-top: 3em;
+	width: 65%;
   }
 }
 
@@ -2151,7 +2169,7 @@ a.split_logo2:hover { color:white; background:goldenrod; }
 	}
 
 		.select-wrapper:before {
-			content: "";
+			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
