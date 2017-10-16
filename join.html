@@ -17,6 +17,15 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 		<link rel="manifest" href="manifest.json">
 		<meta name="theme-color" content="#ffffff">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108126481-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-108126481-1');
+		</script>
 	</head>
 	<body class="subpage">
 
@@ -63,7 +72,7 @@
 
 								<h3 style="font-weight: 600">Get on the mailing list to learn about club meetings, guest speakers, and more:</h3>
 
-								<form method="post" action="mailto:vawucsc@gmail.com">
+								<form method="post" action="https://formspree.io/vawucsc@gmail.com">
 									<div class="row uniform">
 										<div class="6u 12u$(xsmall)">
 											<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -75,7 +84,6 @@
 										<div class="12u$">
 											<ul class="actions">
 												<li><input type="submit" onClick="return callValidation();" value="Submit" /></li>
-												<li><div class="g-recaptcha" data-sitekey="6Lem2i0UAAAAABySCAc6xNiOHhzA4QS_ETIjB8ub"></div></li>
 											</ul>
 										</div>
 									</div>
@@ -132,7 +140,6 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="https://www.google.com/recaptcha/api.js"></script>
 			<script type="text/javascript">
 				function callValidation(){
 
@@ -145,10 +152,6 @@
 						return false;
 					}
 
-					else if(grecaptcha.getResponse().length == 0){
-						alert('Please verify the reCAPTCHA...');
-						return false;
-					}
 					return true;
 				}
 			</script>
