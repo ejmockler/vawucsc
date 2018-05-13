@@ -3348,4 +3348,85 @@ a.split_inlogo {
   height: 100%;
 }
 
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.eventAlert {
+    position: fixed;
+    z-index: 10002;
+	font-style: italic;
+	font-weight: bold;
+	color: #d4e0ef;
+	margin-right: -1.5em;
+    top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #20455D;
+	cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden; 
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+	-webkit-transform: translateY(-50px);
+    -webkit-animation: slideDown 2.5s 1s 1 ease forwards;
+    -moz-transform:    translateY(-50px);
+    -moz-animation:    slideDown 2.5s 1s 1 ease forwards;
+}
+	
+.cssanimations.csstransforms #alertwindow {
+    
+}
+		@-webkit-keyframes slideDown {
+				0% { -webkit-transform: translateY(-50px); }
+				10%, 100% { -webkit-transform: translateY(0px); }
+				
+			}
+			@-moz-keyframes slideDown {
+				0% { -moz-transform: translateY(-50px); }
+				10%, 100% { -webkit-transform: translateY(0px); }
+			}
+			@media screen and (max-width: 736px) {
+
+			.alertWindow{
+					margin-bottom: 0em;
+				}
+			}
+
+.closebtn {
+    margin-right: 1.9em;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+	z-index: 1000001;
+}
+
 
