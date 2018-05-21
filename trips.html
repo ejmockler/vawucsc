@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	based on Theory by TEMPLATED 
@@ -14,12 +15,31 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/nanogallery2.min.css" async>
 		<link rel="stylesheet" href="assets/css/balloon.css" onload="if(media!='all')media='all'">
- 			<noscript><link rel="stylesheet" href="assets/css/balloon.css"</noscript>
+ 		<link rel="stylesheet" href="assets/css/balloon.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 		<link rel="manifest" href="manifest.json">
 		<meta name="theme-color" content="#ffffff">
+		<script type="text/javascript">
+	  function resizeIframe() {
+			  var iFrameID = document.getElementById('previousTrips');
+				  if(iFrameID) {
+						// here you can make the height, I delete it first, then I make it again
+						iFrameID.height = "";
+					  	iFrameID.width = "";
+						iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight;
+					  	iFrameID.width = iFrameID.contentWindow.document.body.scrollWidth;
+				  }   
+			  }
+			</script>
+			<script>
+			$(document).ready(function(){
+			$("#selector").change(function(){
+				$("#previousTrips").attr("src", $(this).val());
+			});
+		});
+		</script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108126481-1"></script>
 		<script>
@@ -66,7 +86,8 @@
 						"thumbnailHeight": "200",
 						"thumbnailDisplayTransition": "fadeIn",
 						"thumbnailHoverEffect2": "borderLighter",
-						"thumbnailAlignment": "center"
+						"thumbnailAlignment": "center",
+						"viewerFullscreen": "true",
 					  }'>
 					<a href="" data-ngkind="album" data-ngid="4" data-ngthumb="images/cambodia17/fullsizeoutput_1fc.jpg">Adventures</a>
 					<a href="images/cambodia17/fullsizeoutput_1fc.jpg" data-ngalbumid="4" data-ngid="10"></a>
@@ -84,8 +105,10 @@
 					<a href="" data-ngkind="album" data-ngid="6" data-ngthumb="images/cambodia17/IMG_20171229_110230.jpg">Education Day</a>
 					<a href="images/cambodia17/IMG_20171229_110230.jpg" data-ngalbumid="6" data-ngid="60"></a>
 				</div>
+				</div>
 			</section>
-		<section class="wrapper style2 special">
+		
+			<section class="wrapper style2 special">
 				<div class="inner">
 				<h2 data-balloon-length="medium" data-balloon-visible data-balloon="Mouse over our names to learn what we most look forward to!" data-balloon-pos="down" style="margin-top:-2em; margin-bottom:3em;">Roster</h2>
 					<div class="flex flex-4">
@@ -122,114 +145,16 @@
 					</div>
 				</div>
 			</section>
-		<!-- Peru17 -->
-			<section id="Peru17" class="wrapper">
-			 <div class="inner" style="margin-top: -6em;">
-				 <header>
-				 	 <hr />
-					 <h3 style="margin-bottom: 2em;"><b style="color:#5385c1">Peru 2017</b> <span><h6><i>8/28 - 9/11</i></h6></span></h3>
-				</header>
-				 <div style="margin: 0 auto; margin-top:-2em" data-nanogallery2='{
-						"thumbnailWidth": "auto",
-						"thumbnailHeight": "200",
-						"thumbnailDisplayTransition": "fadeIn",
-						"thumbnailHoverEffect2": "borderLighter",
-						"thumbnailAlignment": "center"
-					  }'>
-					<a href="" data-ngkind="album" data-ngid="1" data-ngthumb="images/peru17/IMG_1003.jpg">Adventures</a>
-					<a href="images/peru17/IMG_1003.jpg" data-ngalbumid="1" data-ngid="10"></a>
-					<a href="images/peru17/IMG_4393.jpg" data-ngalbumid="1" data-ngid="11"></a>
-					<a href="images/peru17/IMG_4390.jpg" data-ngalbumid="1" data-ngid="12"></a>
-					<a href="images/peru17/IMG_5167.jpg" data-ngalbumid="1" data-ngid="13"></a>
-					<a href="images/peru17/IMG_5175.jpg" data-ngalbumid="1" data-ngid="14"></a>
-					<a href="images/peru17/IMG_4396.jpg" data-ngalbumid="1" data-ngid="15"></a>
-					<a href="images/peru17/IMG_4397.jpg" data-ngalbumid="1" data-ngid="16"></a>
-					<a href="images/peru17/IMG_4551.jpg" data-ngalbumid="1" data-ngid="17"></a>
-					<a href="images/peru17/IMG_5159.jpg" data-ngalbumid="1" data-ngid="18"></a>
-				    
-					<a href="" data-ngkind="album" data-ngid="2" data-ngthumb="images/peru17/IMG_4420.jpg">Clinic days</a>
-					<a href="images/peru17/DSC_0008.jpg" data-ngalbumid="2" data-ngid="20"></a>
-					<a href="images/peru17/DSC_0007.jpg" data-ngalbumid="2" data-ngid="21"></a>
-					<a href="images/peru17/DSC_0010.jpg" data-ngalbumid="2" data-ngid="22"></a>
-					<a href="images/peru17/IMG_4482.jpg" data-ngalbumid="2" data-ngid="23"></a>
-					<a href="images/peru17/IMG_8756.jpg" data-ngalbumid="2" data-ngid="24"></a>
-					 <a href="images/peru17/IMG_4687.jpg" data-ngalbumid="2" data-ngid="25"></a>
-					<a href="images/peru17/IMG_5153.jpg" data-ngalbumid="2" data-ngid="26"></a>
-					<a href="images/peru17/IMG_4420.jpg" data-ngalbumid="2" data-ngid="27"></a>	
-					
-					<a href="" data-ngkind="album" data-ngid="3" data-ngthumb="images/peru17/IMG_4599.jpg">Education Day</a>
-					<a href="images/peru17/IMG_4599.jpg" data-ngalbumid="3" data-ngid="30"></a>
-					<a href="images/peru17/IMG_4491.jpg" data-ngalbumid="3" data-ngid="31"></a>
-					<a href="images/peru17/IMG_4603.jpg" data-ngalbumid="3" data-ngid="32"></a>
-					<a href="images/peru17/DSC_0031.jpg" data-ngalbumid="3" data-ngid="33"></a>
-					<a href="images/peru17/DSC_0066.jpg" data-ngalbumid="3" data-ngid="34"></a>
-					<a href="images/peru17/IMG_2328.jpg" data-ngalbumid="3" data-ngid="35"></a>
-					<a href="images/peru17/DSC_00082.jpg" data-ngalbumid="3" data-ngid="36"></a>
+			 <div class="inner">
+				 <header align="center">
+					 <h3><b style="color:#5385c1">Check out another previous trip:</b></h3>
+				 </header>
+		<select id="selector" style="margin-bottom: 5em;" onchange="window.open(this.options[this.selectedIndex].value, '_self');" >
+						<option value="#">Select Trip</option>
+						<option value="trips/peru17.html">Peru 2017</option>
+				 </select>
 				</div>
-				</div>
-			</section>
-		<section id="two" class="wrapper style2 special">
-				<div class="inner">
-				<h2 data-balloon-length="medium" data-balloon-visible data-balloon="Mouse over our names to learn what we most look forward to!" data-balloon-pos="down" style="margin-top:-2em; margin-bottom:3em;">Roster</h2>
-					<div class="flex flex-4">
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/Kelly_Vianne 6_1_17.jpg" alt="Viane Kelly">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to getting to know another culture and improving my Spanish speaking skills with my host family." data-balloon-pos="up">Viane Kelly</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/Ponce_Rebecca 6_1_17.jpg" alt="Rebecca Ponce">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to exploring the city of Cusco and meeting people from a different culture than mine. " data-balloon-pos="up">Rebecca Ponce</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/Hu_Elizabeth 6_1_17.jpg" alt="Elizabeth Hu">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to helping at the clinics and experiencing Peruvian culture." data-balloon-pos="up">Elizabeth Hu</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/Lee_Ailene 6_1_17.jpg" alt="Ailene Lee">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I’m looking forward to visiting a new country and learning about the culture there!  And seeing some llamas!" data-balloon-pos="up">Ailene Lee</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/WongJoey.jpg" alt="Joey Wong">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to learning about a new culture and spending time working at a clinic!" data-balloon-pos="up">Joey Wong</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/DavidsonBrittany.jpg" alt="Brittany Davidson">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to making a difference in people’s lives and visiting Machu Picchu!" data-balloon-pos="up">Brittany Davidson</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/Haddad_Julie 6_1_17.jpg" alt="Julie Haddad">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to going to a new country and helping out in the clinics." data-balloon-pos="up">Julie Haddad</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/peru17/PhanTiffany.jpg" alt="Tiffany Phan">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I’m looking forward to helping out at the clinic and experiencing what Peruvian life is like within the host’s home." data-balloon-pos="up">Tiffany Phan</h3>
-						</div>
-						<div class="box person">
-							<div class="image round">
-								<img src="images/board/AdianezAmpil.jpg" alt="Adianez Ampil">
-							</div>
-							<h3 data-balloon-length="xlarge" data-balloon="I look forward to working with local doctors, and exploring the country." data-balloon-pos="up">Adianez Ampil</h3>
-						</div>
-					</div>
-					<p><i>Missing pictures and bios: <span style="color:#5385c1">Maja Trimble, Mona Zia, Mariani Deluna</i></span></p>
-				</div>
-			</section>
+			
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
