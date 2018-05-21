@@ -2080,7 +2080,10 @@ a.split_inlogo {
 		.flex.flex-4 .box {
 			width: 21%;
 		}
-
+		
+		.flex.flex-6 .box {
+			width: 15%;
+		}
 		@media screen and (max-width: 980px) {
 
 			.flex.flex-2 article {
@@ -2119,7 +2122,9 @@ a.split_inlogo {
 			.flex.flex-4 .box {
 				width: 47%;
 			}
-
+			.flex.flex-6 .box {
+				width: 33.5%;
+			}
 		}
 
 		@media screen and (max-width : 480px ){
@@ -2127,7 +2132,9 @@ a.split_inlogo {
 			.flex.flex-4 .box {
 				width: 100%;
 			}
-
+			.flex.flex-6 .box {
+				width: 50%;
+			}
 		}
 
 /* Form */
