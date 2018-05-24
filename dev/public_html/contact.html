@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>VAW@UCSC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Volunteers Around the World @ UCSC</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="donate.html">⭐ Donate ⭐</a>
+						<a href="projects.html">Projects</a>
+						<a href="trips.html">Trips</a>
+						<a href="faq.html">FAQ</a>
+						<a href="resources.html">Resources</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<!-- Form -->
+								<h4>Thanks for reaching out!</h4>
+								<h3>Write out an email here (or send to <a href="mailto:vawucsc@gmail.com" target="_blank">vawucsc@gmail.com)</a></h3>
+
+								<form method="post" action="mailto:vawucsc@gmail.com">
+									<div class="row uniform">
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="name" value="" placeholder="Name" />
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="email" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<!-- Break -->
+										<div class="12u$">
+											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<!-- Break -->
+										<div class="12u$">
+											<ul class="actions">
+												<li><input type="submit" onClick="return callValidation();" value="Send Message" /></li>
+												<li><div class="g-recaptcha" data-sitekey="6Lem2i0UAAAAABySCAc6xNiOHhzA4QS_ETIjB8ub"></div></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+
+								<hr />
+
+					<p></p>
+					<div class="flex flex-2">
+						<article>
+							<div class="image fit">
+								<img src="images/dentisting.jpg" alt="Shadow doctors!" title="Shadow doctors!" />
+							</div>
+							<header>
+								<h3>Gain the experience you need.</h3>
+							</header>
+							<p>Shadow local doctors to see what the medical profession is like; learn if this career path works well for you.</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+						<article>
+							<div class="image fit">
+								<img src="images/perusquadpic.jpg" alt="Experience new places & cultures." title="Experience new places & cultures." />
+							</div>
+							<header>
+								<h3>See new places.</h3>
+							</header>
+							<p>Take some of those free days to immerse yourself in a new culture! Have an amazing experience with your fellow members. </p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; VAW at UCSC
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src='https://www.google.com/recaptcha/api.js'></script>
+			<script type="text/javascript">
+				function callValidation(){
+
+					if(document.getElementById('name').value == ''){
+						alert('Please enter your name...');
+						return false;
+					}
+					if(document.getElementById('email').value == ''){
+						alert('Please enter your email...');
+						return false;
+					}
+
+					else if(grecaptcha.getResponse().length == 0){
+						alert('Please verify the reCAPTCHA...');
+						return false;
+					}
+					return true;
+				}
+			</script>
+	</body>
+</html>

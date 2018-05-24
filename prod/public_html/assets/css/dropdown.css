@@ -1,0 +1,60 @@
+.nav {
+    display: block;
+    margin-top: -1.em; 
+    padding: 0;
+	z-index: 10003;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+	text-align: right;
+}
+
+.nav .button-dropdown {
+    position: relative;
+	padding-bottom: 2em;
+	margin-top: -1.3em;
+}
+
+.nav li a {
+    display: block;
+    color: #333;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.nav li a span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #999;
+	
+}
+
+.nav li a:hover, .nav li a.dropdown-toggle.active {
+    background-color: #5385C1;
+    color: #ffffff;
+}
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span {
+    color: #EEEEEE;
+}
+
+.nav li .dropdown-menu {
+    display: none;
+    position: sticky;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    text-align: justify;
+}
+
+.nav li .dropdown-menu.active {
+    display: block;
+}
+
+.nav li .dropdown-menu a {
+    width: 150px;
+}
