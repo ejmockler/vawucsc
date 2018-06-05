@@ -1651,7 +1651,7 @@ div.logo {
   div.logo {
     margin-top: 3em;
 	margin-left: 7em;
-	margin-right: .25em;
+	margin-right: 7em;
 	width: 65%;
   }
 }
@@ -1660,7 +1660,7 @@ div.logo {
   div.logo {
 	margin-top: 3.75em;
 	margin-left: 5em;
-	margin-right: .25em;
+	margin-right: 5em;
 	width: 70%;
   }
 }
@@ -1668,8 +1668,8 @@ div.logo {
 @media screen and ( min-width : 601px ) and (max-width : 736px ){
   div.logo {
 	margin-top: 2.25em;
-	margin-left: 2.5em;
-	margin-right: .25em;
+	margin-left: 3.5em;
+	margin-right: 3.5em;
 	width: 77.75%;
   }
 }
