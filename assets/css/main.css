@@ -1622,8 +1622,8 @@ div.logo {
 @media screen and (max-width: 480px) {
   div.logo {
     margin-top: 1.5em;
-	margin-left: .25em;
-	margin-right: .25em;
+	margin-left: 0em;
+	margin-right: 0em;
 	width: 89.25%;
 	transform: scale(1.05);
   }
@@ -1668,7 +1668,7 @@ div.logo {
 @media screen and ( min-width : 601px ) and (max-width : 736px ){
   div.logo {
 	margin-top: 2.25em;
-	margin-left: 3.5em;
+	margin-left: 3em;
 	margin-right: 3.5em;
 	width: 77.75%;
   }
