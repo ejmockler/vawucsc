@@ -1638,30 +1638,30 @@ div.logo {
 	}
 }
 
-@media screen and (min-width : 1100px ) and ( max-width : 1280px) {
+@media screen and (min-width : 980px ) and ( max-width : 1280px) {
 	div.logo {
-		margin-top: 2.5em;
+		margin-top: 2.75em;
 		margin-left: 2em;
 		margin-right: .25em;
 		width: 60%;
 	}
 }
 
-@media screen and (min-width : 900px ) and ( max-width : 1100px ){
+@media screen and (min-width : 900px ) and ( max-width : 980px ){
   div.logo {
     margin-top: 3em;
-	margin-left: .25em;
+	margin-left: 7em;
 	margin-right: .25em;
-	width: 67.75%;
+	width: 65%;
   }
 }
 
 @media screen and (min-width : 736px ) and ( max-width : 900px ){
   div.logo {
-	margin-top: 3em;
-	margin-left: 2.5em;
+	margin-top: 3.75em;
+	margin-left: 5em;
 	margin-right: .25em;
-	width: 77.75%;
+	width: 70%;
   }
 }
 
