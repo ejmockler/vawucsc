@@ -1685,7 +1685,13 @@ a.split_logo2 {
 		}
 
 a.split_logo2:first-letter {
-    padding-left: 40pt;
+   margin-left: 3em;
+}
+
+@media screen and (max-width : 1680px){
+	a.split_logo2:first-letter {
+		margin-left: 3em;
+	}
 }
 a.split_inlogo {
 	z-index: 10000;
