@@ -1659,7 +1659,7 @@ div.logo {
 @media screen and (min-width : 736px ) and ( max-width : 900px ){
   div.logo {
 	margin-top: 3em;
-	margin-left: .25em;
+	margin-left: 2.5em;
 	margin-right: .25em;
 	width: 77.75%;
   }
