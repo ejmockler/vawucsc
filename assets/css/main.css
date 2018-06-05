@@ -1714,7 +1714,17 @@ a.split_inlogo {
 	z-index: 10000;
 }
 
+@media screen and (max-width: 480px){
+	#joinButton {
+		transform: scale(.75);
+	}
+}
 
+@media screen and (min-width: 481px) and (max-width: 980px){
+	#joinButton {
+		transform: scale(.9);
+	}
+}
 	@-ms-viewport {
 		width: device-width;
 	}
